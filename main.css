@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Abril Fatface', cursive;
+scroll-behavior: smooth;
+background: hsla(186, 33%, 94%, 1);
+
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+.background-placeholder{
+    background-image: url("./charles-forerunner-3fPXt37X6UQ-unsplash.jpg");
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+}
+.hero-text{
+    font-size: 56px;
+}
+.caption-text{
+    font-size: 26px;
+}
+
+.hero-text ,.caption-text{
+    /* color     */
+    text-shadow: 0px 0px 20px black ;
+}
+.about, .work, .results, .blogs, .contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.display-heading{
+    margin-bottom: 10px;
+    font-size: 4em;
+    text-decoration: underline 4px ;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.about-text{
+    text-align: center;
+}
+.text-font{
+    margin-top: 10px;
+    font-family: 'Aleo', serif;
+    max-width: 70vw;
+    font-size: larger;
+    line-height: 1.68421053em;
+}
+.item{
+    margin-bottom:2em;
+}
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif; */
