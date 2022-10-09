@@ -16,21 +16,25 @@ background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
 }
-.background-placeholder{
+.background-placeholder
+{
     background-image: url("./charles-forerunner-3fPXt37X6UQ-unsplash.jpg");
     position: absolute;
     width: 100vh;
     height: 100vh;
 }
-.hero-text{
+
+.hero-text
+{
     font-size: 56px;
 }
-.caption-text{
+.caption-text
+{
     font-size: 26px;
 }
 
 .hero-text ,.caption-text{
-    /* color     */
+    /* color*/
     text-shadow: 0px 0px 20px black ;
 }
 .about, .work, .results, .blogs, .contact-us{
